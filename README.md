@@ -100,3 +100,11 @@ Options:
   --ledger                       Flag if to use a ledger to sign transactions (only for write functionality).
   --ledger-address         TEXT  Address of the ledger's account to use to sign transactions (only for write functionality).
 ```
+
+## Local
+
+Execute uvicorn to run in local: http://127.0.0.1:8000/docs
+
+```
+  uvicorn main:app --reload
+```
